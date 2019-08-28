@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import ResponsiveDrawer from './ResponsiveDrawer';
+import ResponsiveDrawer from './Layout';
 import './style.css';
 import Router from './Router'
-
+import {BrowserRouter} from 'react-router-dom'
 class App extends Component {
   constructor() {
     super();
@@ -22,4 +22,7 @@ class App extends Component {
   }
 }
 
-render(<App />, document.getElementById('root'));
+render(
+  <BrowserRouter>
+  <App />
+  </BrowserRouter>, document.getElementById('root'));
