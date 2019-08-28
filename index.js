@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import ResponsiveDrawer from './ResponsiveDrawer';
 import './style.css';
+import Router from './Router'
 
 class App extends Component {
   constructor() {
@@ -15,6 +16,7 @@ class App extends Component {
     return (
       <div>
         <ResponsiveDrawer />
+        <Router/>
       </div>
     );
   }

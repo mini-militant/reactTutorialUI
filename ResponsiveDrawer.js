@@ -16,7 +16,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-
+import {Link} from 'react-router-dom';
 const drawerWidth = 240;
 
 const useStyles = makeStyles(theme => ({
@@ -72,7 +72,7 @@ function ResponsiveDrawer(props) {
       <Divider />
       <List>
         {['Inbox', 'Starred', 'Send email', 'Drafts','agsd'].map((text, index) => (
-          <ListItem button key={text}>
+          <ListItem button key={text} component={Link}>
             
             <ListItemText primary={text} />
           </ListItem>
