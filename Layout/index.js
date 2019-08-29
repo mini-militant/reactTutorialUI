@@ -69,7 +69,7 @@ function ResponsiveDrawer(props) {
   const drawer = (
     <div>
       
-      <img src="https://thumbsplus.tutsplus.com/uploads/users/769/posts/32107/preview_image/react400.png?height=300&width=300" width="100%" height="auto"/>"
+      <img src="https://thumbsplus.tutsplus.com/uploads/users/769/posts/32107/preview_image/react400.png?height=300&width=300" width="100%" height="auto"/>
       <Divider />
       
       <MenuList>
