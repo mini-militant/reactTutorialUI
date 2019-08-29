@@ -54,9 +54,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
-const handleClick=()=>{
-  console.log("clicked React");
-}
+
 
 function ResponsiveDrawer(props) {
   const { container,children } = props;
@@ -70,23 +68,16 @@ function ResponsiveDrawer(props) {
 
   const drawer = (
     <div>
-      <div className={classes.toolbar} />
-      sdfdsfsasdsad
+      
+      <img src="https://thumbsplus.tutsplus.com/uploads/users/769/posts/32107/preview_image/react400.png?height=300&width=300" width="100%" height="auto"/>"
       <Divider />
       
       <MenuList>
-        <MenuItem component={Link} to='/'>Home</MenuItem>
-        <MenuItem component={Link} to='/cart'>cart</MenuItem>
+        <MenuItem component={Link} to='/' >Home</MenuItem>
+        <Divider />
+        <MenuItem component={Link} to='/cart'>Cart</MenuItem>
+        <Divider />
       </MenuList>
-      <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam','tgfd'].map((text, index) => (
-          <ListItem button key={text} onClick={handleClick()}>
-            
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
     </div>
   );
 
@@ -141,7 +132,6 @@ function ResponsiveDrawer(props) {
         </Hidden>
       </nav>
       <main className={classes.content}>
-        <div className={classes.toolbar} />
         {children}
       </main>
     </div>
