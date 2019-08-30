@@ -73,9 +73,9 @@ function ResponsiveDrawer(props) {
       <Divider />
       
       <MenuList>
-        <MenuItem component={Link} to='/' >Home</MenuItem>
+        <MenuItem component={Link} to='/' >React - Home</MenuItem>
         <Divider />
-        <MenuItem component={Link} to='/cart'>Cart</MenuItem>
+        <MenuItem component={Link} to='/environment'>React - Environment Setup </MenuItem>
         <Divider />
       </MenuList>
     </div>

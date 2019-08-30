@@ -1,6 +1,4 @@
 import React from 'react'
-import data from '../data/products.json'
-import ProductListing from '../features/productListing/index'
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles({

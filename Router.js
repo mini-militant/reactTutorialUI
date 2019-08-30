@@ -9,7 +9,7 @@ const Router=()=>{
     <Layout >
      <Switch>
     <Route exact path='/' component={ReactHome}/>
-    <Route  path='/cart' component={ReactEnvironment}/>
+    <Route  path='/environment' component={ReactEnvironment}/>
   </Switch>
   </Layout>
   )
