@@ -1,5 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/styles';
+import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles({
   root: {
@@ -39,6 +40,7 @@ const ReactHome = (props) => {
   return (
     <div>
       <h2 className={classes.root}>What is React?</h2>
+      <Divider/>
       <div className={classes.content}><b>ReactJS </b>tutorial provides basic and advanced concepts of ReactJS. Currently, ReactJS is one of the most popular JavaScript front-end libraries which has a strong foundation and a large community. ReactJS is a <b>declarative</b>, <b>efficient</b>, and flexible <b> JavaScript library </b> for building reusable UI components.React is a component based framework used for making <b>reusable</b> User Interface that improves the speed of the apps. It uses virtual DOM, which improves the performance of the app. The Javascript virtual DOM is faster than the regular DOM. </div>
 
       <div className={classes.content}>It was initially developed and maintained by Facebook and later used in products like Whatsapp & Instagram.</div>
