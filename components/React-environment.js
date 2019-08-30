@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CartPage=(props)=>{
+const ReactEnvironment=(props)=>{
   return(
     <div>
     <h1>Cart Page</h1>
@@ -8,4 +8,4 @@ const CartPage=(props)=>{
   )
 }
 
-export default CartPage;
+export default ReactEnvironment;

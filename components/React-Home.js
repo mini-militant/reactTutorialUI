@@ -36,7 +36,7 @@ const useStyles = makeStyles({
 });
 
 
-const HomePage = (props) => {
+const ReactHome = (props) => {
   const classes = useStyles();
   return (
     <div>
@@ -60,4 +60,4 @@ const HomePage = (props) => {
   )
 }
 
-export default HomePage
+export default ReactHome

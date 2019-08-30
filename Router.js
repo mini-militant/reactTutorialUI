@@ -1,15 +1,15 @@
 import React from 'react'
 import {Switch,Route} from 'react-router-dom'
-import HomePage from './components/Home'
-import CartPage from './components/Cart'
+import ReactHome from './components/React-Home'
+import ReactEnvironment from './components/React-environment'
 import Layout from './Layout'
 
 const Router=()=>{
   return(
     <Layout >
      <Switch>
-    <Route exact path='/' component={HomePage}/>
-    <Route  path='/cart' component={CartPage}/>
+    <Route exact path='/' component={ReactHome}/>
+    <Route  path='/cart' component={ReactEnvironment}/>
   </Switch>
   </Layout>
   )
