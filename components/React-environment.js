@@ -23,8 +23,8 @@ const useStyles = makeStyles({
     color: '#4f5751'
   },
   list: {
-    paddingLeft:'80px',
-    paddingRight:'40px',
+    paddingLeft: '80px',
+    paddingRight: '40px',
     width: '100%',
     height: 'auto',
     textAlign: 'justify',
@@ -33,14 +33,26 @@ const useStyles = makeStyles({
   },
 });
 
-const ReactEnvironment=(props)=>{
+const ReactEnvironment = (props) => {
   const classes = useStyles();
-  return(
-    
+  return (
+
     <div>
       <h2 className={classes.root}>React - Environment Setup</h2>
-      <Divider/>
-      <div className={classes.content}><b>ReactJS </b>tutorial provides basic and advanced concepts of ReactJS. Currently, ReactJS is one of the most popular JavaScript front-end libraries which has a strong foundation and a large community. ReactJS is a <b>declarative</b>, <b>efficient</b>, and flexible <b> JavaScript library </b> for building reusable UI components.React is a component based framework used for making <b>reusable</b> User Interface that improves the speed of the apps. It uses virtual DOM, which improves the performance of the app. The Javascript virtual DOM is faster than the regular DOM. </div>
+      <Divider />
+      <div className={classes.content}>
+        <section>
+          In this section we will see the setup for successful React development. There are a few prerequisites for setting up the react pojects. We will need NodeJS, so if you have not installed click on the below link.
+      </section>
+        <section>
+          <h3><a href="https://nodejs.org/en/">NodeJS Environment Setup</a></h3>
+        </section>
+        <section>
+          <p>Installing the easy way : Using create-react-app command</p>
+          <h4>Step 1:</h4>
+        </section>
+
+      </div>
     </div>
   )
 }
